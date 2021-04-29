@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bower_components/bxslider/dist/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="/bower_components/bxslider/dist/jquery.bxslider.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.slider').bxSlider();
+        });
+    </script>
+
+</head>
+
+<body>
+    好きな三元牌
+    <select name="sangenpai">
+        <option value="白">白</option>
+        <option value="撥">撥</option>
+        <option value="中" selected>中</option>
+    </select>
+</body>
+
+</html>
